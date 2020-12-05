@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400&display=swap');
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 500px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttonA {
+    background-color: #78e9f1;
+    padding: 8px;
+}
+
+.buttonB {
+    background-color: plum;
+    padding: 8px;
+}
+
+.adults {
+    max-width: 200px;
+}
+
+.youth, .other-items {
+    max-width: 200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.section-container  {
+    flex-direction: column;
+    padding: 5%;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+}
+
+nav>div {
+    padding: 0% 5%;
+}
+
+nav img {
+    height: 30px;
+}
+
+#cart {
+    font-weight: bold;
+    align-items: center;
+}
+
+.header-text {
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 4% 5%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 7vh;
+    align-items: center;
+    text-align: center;
+}
+
+header h5 {
+    font-size: 23px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.section {
+    margin: 3% 0%;
+    padding: 1%;
+    align-items: center;
+    text-align: left;
+}
+
+.button {
+    cursor: pointer;
+    background-color: plum;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.buy img {
+    width: 20px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.buy {
+    margin-top: 15px;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#header1 {
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 4% 5%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+#facts {
+    text-align: center;
+}
+
+#header2 {
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 4% 5%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+#text {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+#text3 {
+    background-color: #78e9f1;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    border-radius: 1em;
+}
+
+.text1 {
+    background-color: plum;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    border-radius: 1em;
+}
+
+.text2 {
+    text-align: center;
+}
