@@ -33,11 +33,13 @@ a {
 .buttonA {
     background-color: #78e9f1;
     padding: 8px;
+    border-radius: 4px;
 }
 
 .buttonB {
     background-color: plum;
     padding: 8px;
+    border-radius: 4px;
 }
 
 .adults {
@@ -191,4 +193,24 @@ header h5 {
 
 .text2 {
     text-align: center;
+}
+
+.arrow{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #78e9f1;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 8px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 24px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
